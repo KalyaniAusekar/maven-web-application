@@ -5,7 +5,7 @@ resources:
 - repo: self
 
 variables:
-  dockerRegistryServiceConnection: 'dockerhub-connection'   # Name of your service connection
+  dockerRegistryServiceConnection: 'DockerHub-Connection'   # Name of your service connection
   imageRepository: 'kalyaniausekar/devops'            # Docker Hub repo name
   containerRegistry: 'docker.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
